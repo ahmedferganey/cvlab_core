@@ -1,3 +1,143 @@
+# =====================================
+# Python / Computer Vision Project
+# =====================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
+
+# --- Virtual Environments and ref ---
+venv/
+env/
+.venv/
+ENV/
+*.env
+cvcourse_windows/
+.cvcourse_windows/
+ref/
+.ref/
+cvcourse_windows_local/
+
+# --- Logs & Debug ---
+*.log
+*.out
+*.err
+nohup.out
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Data ---
+data/
+datasets/
+*.csv
+*.json
+*.xml
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.weights
+
+# --- Results & Outputs ---
+outputs/
+results/
+runs/
+checkpoints/
+inference/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.mp4
+*.avi
+
+# --- Temporary Files ---
+tmp/
+temp/
+*.tmp
+*.bak
+
+# --- Notebooks / Experiments ---
+experiments/
+notebooks/.ipynb_checkpoints/
+tensorboard/
+wandb/
+mlruns/
+lightning_logs/
+*.event*
+
+# --- Docker ---
+*.pid
+*.pid.lock
+*.tar
+.dockerignore
+
+# --- Dependencies ---
+requirements.txt~
+Pipfile.lock
+poetry.lock
+
+# --- Cache ---
+.cache/
+.pytest_cache/
+__MACOSX/
+*.swp
+*.swo
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.config
+secrets.json
+
+# --- Model Artifacts ---
+models/
+saved_models/
+weights/
+checkpoints/
+runs/
+
+
+########################################################
 # Gradle files
 .gradle/
 build/
